@@ -1,0 +1,29 @@
+#큰 수 구성하기
+===============
+
+<https://www.acmicpc.net/problem/18511>
+
+![Alt text](C:\Users\82105\Pictures\download\백준\18511.png)
+
+## Code
+```python
+def find_max(digit, num):
+    global maximum
+    if digit == len(str(n)):
+        if not '0' in str(num):
+            maximum = max(maximum, num)
+        return
+    for i in range(k):
+        temp = lst[i]*(10**(len(str(n))-digit-1)) + num
+        if temp <= n:
+            find_max(digit+1, temp)
+        else:
+            find_max(digit+1, num)
+    
+n, k = map(int, input().split())
+lst = list(map(int, input().split()))
+maximum = 0
+find_max(0,0)
+print(maximum)
+```
+
