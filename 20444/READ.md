@@ -2,7 +2,7 @@
 ==========================
 
 ### <https://www.acmicpc.net/problem/20444>
-<img width="889" alt="image" src="https://user-images.githubusercontent.com/83554018/158282519-cfdf9988-cf74-44d2-8d7e-0f0280f18d8a.png">
+<img width="871" alt="image" src="https://user-images.githubusercontent.com/83554018/161481837-a779b1e8-5318-44a9-8df7-17461a8a4c1f.png">
 
 <hr>
 
