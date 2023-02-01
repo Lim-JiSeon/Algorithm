@@ -1,11 +1,11 @@
 # 몫 구하기(사칙연산)
 
 ## 문제 설명
-정수 num1, num2가 매개변수로 주어질 때, num1을 num2로 나눈 몫을 return 하도록 solution 함수를 완성해주세요.
+정수 num1, num2가 매개변수로 주어질 때, num1를 num2로 나눈 몫을 return 하도록 solution 함수를 완성해주세요.
 
 ## 문제 풀이
 - get_quotient/getQuotient 함수 만들기<br>
-*get_quotient/getQuotient(num1, num2) : num1을 num2로 나눈 몫을 구하는 기능 제공*
+*get_quotient/getQuotient(num1, num2) : num1를 num2로 나눈 몫을 구하는 기능 제공*
 ```python
 def get_quotient(num1, num2):
     return num1//num2
