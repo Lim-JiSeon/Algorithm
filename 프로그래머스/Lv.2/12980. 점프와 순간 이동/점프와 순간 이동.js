@@ -4,6 +4,7 @@ function solution(n)
 
     while(n > 1) {
         n = parseInt(n / 2)
+        
         if (n % 2) {
             ans += 1
             n -= 1
